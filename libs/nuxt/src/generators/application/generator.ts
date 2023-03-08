@@ -271,7 +271,7 @@ export async function applicationGenerator(
   const installTask = addDependenciesToPackageJson(
     tree,
     {
-      nuxt: '^3.0.0-rc.12',
+      nuxt: '^3.0.0',
     },
     {
       '@nuxtjs/eslint-config-typescript': '^10.0.0',
